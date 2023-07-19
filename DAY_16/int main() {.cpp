@@ -1,13 +1,8 @@
-int T,chef,chefina;
+int T,N,X,Y;
 	cin >> T;
 while(T--){
-    cin >> chef >>  chefina;
-if (chef>chefina)
-    cout << chef - chefina << endl;
-else if (chefina > chef)
-  cout << chefina - chef<< endl;
-else 
-    cout <<"0" << endl;
+cin >> N >> X >> Y;
+(X+Y*2<=N) ?cout<<"YES"<<endl:cout<<"NO"<<endl;
 }
 	return 0;
 }
