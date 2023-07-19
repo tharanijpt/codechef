@@ -1,9 +1,13 @@
-int T,rtp,audit,non_rtp;
+int T,chef,chefina;
 	cin >> T;
 while(T--){
-    
-    cin >> rtp>>audit>>non_rtp;
-    cout << rtp*4 + audit*2 + non_rtp*0 << endl;
+    cin >> chef >>  chefina;
+if (chef>chefina)
+    cout << chef - chefina << endl;
+else if (chefina > chef)
+  cout << chefina - chef<< endl;
+else 
+    cout <<"0" << endl;
 }
 	return 0;
 }
