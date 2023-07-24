@@ -3,12 +3,12 @@
 using namespace std;
 
 int main() {
-	int T,price,discount,total;
+	int T,price=100,discount,total=0;
 	cin >> T;
 while(T--){
-    cin >> price >> discount;
-    total =price - discount;
-    cout <<total << endl;
+    cin  >> discount;
+    total = price - discount;
+    cout << total << endl;
 }
 	return 0;
 }
